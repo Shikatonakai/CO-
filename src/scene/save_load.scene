@@ -1,0 +1,52 @@
+<scene>
+  <scenario>
+
+    <text>── セーブ・ロード ──</text>
+
+    <choice prompt="どうしますか？">
+
+      <item label="スロット1にセーブ">
+        <save slot="slot1" name="セーブデータ1" />
+        <text>スロット1にセーブしました。</text>
+      </item>
+
+      <item label="スロット2にセーブ">
+        <save slot="slot2" name="セーブデータ2" />
+        <text>スロット2にセーブしました。</text>
+      </item>
+
+      <item label="スロット3にセーブ">
+        <save slot="slot3" name="セーブデータ3" />
+        <text>スロット3にセーブしました。</text>
+      </item>
+
+      <item label="スロット1をロード">
+        <load slot="slot1" />
+      </item>
+
+      <item label="スロット2をロード">
+        <load slot="slot2" />
+      </item>
+
+      <item label="スロット3をロード">
+        <load slot="slot3" />
+      </item>
+
+      <item label="タイトルに戻る">
+        <route to="title" />
+      </item>
+
+    </choice>
+
+    <jump index="1" />
+
+  </scenario>
+
+  <script>
+    export const sceneConfig = {
+      name: 'save_load',
+      background: './src/resource/background/成蹊前ラーメン.jpg',
+      template: './src/screen/title.html',
+    }
+  </script>
+</scene>

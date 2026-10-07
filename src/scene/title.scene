@@ -1,0 +1,61 @@
+<scene>
+ <scenario>
+  <text>吉祥寺駅から徒歩15分。</text>
+  <text>サンロード商店街を左に曲がり、ひたすらに細い道を進んでいく。</text>
+  <text>僕の。新しいステージ。</text>
+  <show mode="bg" src="./src/resource/background/成蹊大学.png" />
+  <text>S大学。設立されてから<color value="bule">62年</color>という長い歴史を持った大学。<br><wait time="1000"/>ワンキャンパス制で多様な学部の人たちが学年問わず交流を深めることのできる、素晴らしい大学である。</text>
+  <text>僕はそんな大学で、有名企業の卒業生を何十人も輩出しているK研究室の研究員として働くことになった。<br><wait time="1000"/>ここから、僕のエリート人生が始まるのだ。</text>
+  <say name="さちかわ">おーい！そこの君！もしかしてたかじくん？</say>
+  <show src="./src/resource/chara/さちかわ.png" name="さちかわ" pos="center:bottom" transition="fade" />
+  <sound mode="bgm" src="./src/resource/bgm/satikawa.mp3" />
+  <text>野生のさちかわが現れた！！</text>
+  <say name="さちかわ">いやいや～お待たせしました。待った？</say>
+
+  <say name="たかじ">いえ！ちょうど今来たところです！</say>
+  <say name="さちかわ">そっかそっか！いや～君がうちに来てくれるのを楽しみにしてたんだよ！噂では<color value="gold">金の卵</color>なんて言われてるらしいじゃないか。</say>
+  <say name="さちかわ">ここでの働き、期待しているよ！</say>
+  <say name="たかじ">あはは...<wait time="500"/>ご期待に応えられるよう頑張ります...</say>
+  <say name="さちかわ">ところで...</say>
+  <say name="さちかわ">君はここでの研究を終えたらどこに就職する予定なの？</say>
+  <say name="たかじ">はい！僕は．．．</say>
+  <sound mode="bgm" src="./src/resource/bgm/選択.mp3" />
+  <choice>
+    <item label="GOSUMO石油" onSelect="GOSUMO">
+      <say name="さちかわ">ｗｗｗ。きみじゃむりだよ。←これは実際言われた言葉</say>
+      <sound mode="se" src="./src/resource/se/大パンチ.mp3" play />
+      <text>たかじに999999のダメージ！</text>
+      <sound mode="se" src="./src/resource/se/試合終了のゴング.mp3" play />
+      <text>たかじは力尽きた...</text>
+      <route to="1-badend" />
+    </item>
+    <item label="ANEOS" onSelect="ANEOS">
+      <sound mode="bgm" src="./src/resource/bgm/title_theme.mp3" />
+      <sound mode="se" src="./src/resource/se/クイズ正解1.mp3" play />
+      <say name="さちかわ">いいね！あそこは僕の卒業生もいっぱいいる、とてもいい場所だ！</say>
+    </item>
+    <item label="PONDA" onSelect="PONDA">
+      <say name="さちかわ">そうなのか！じゃあ君は熱交換器について説明できるんだね！<wait time="1000"/>えｗできない？あぁそんなんじゃ研究員やっていけないね。←これは実際言われた言葉</say>
+      <sound mode="se" src="./src/resource/se/大パンチ.mp3" play />
+      <text>たかじに999999のダメージ！</text>
+      <sound mode="se" src="./src/resource/se/試合終了のゴング.mp3" play /> 
+      <text>たかじは力尽きた...</text>
+      <route to="1-badend" />
+    </item>
+  </choice>
+  <say name="さちかわ">まぁいいや。じゃあ、まずは僕の11号館に案内するね！</say>
+   <route to="2title" />
+
+　
+　
+</scenario>
+
+ <script>
+  export const sceneConfig = {
+    name: 'title',
+    background: './src/resource/background/成蹊前ラーメン.jpg',
+    bgm: './src/resource/bgm/title_theme.mp3',
+    template: './src/screen/title.html',
+    }
+ </script>
+</scene>

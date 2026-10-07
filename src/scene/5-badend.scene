@@ -1,0 +1,19 @@
+<scene>
+ <scenario>
+ <show mode="bg" src="./src/resource/background/始まり.png" transition="fade" />>
+ <text>end2---COから始める異世界物語プロローグ---</text>
+
+
+　
+　
+</scenario>
+
+ <script>
+  export const sceneConfig = {
+    name: 'title',
+    background: './src/resource/background/黒画面.png',
+    bgm: './src/resource/bgm/エンディング.mp3',
+    template: './src/screen/title.html',
+    }
+ </script>
+</scene>
