@@ -1,0 +1,2 @@
+"use strict";(self.webpackChunkCO_=self.webpackChunkCO_||[]).push([[950],{279(e,t,r){r.r(t),r.d(t,{sceneConfig:()=>c});let c={name:"title",background:"./src/resource/background/黒画面.png",bgm:"./src/resource/bgm/title_theme.mp3",template:"./src/screen/title.html"};r.d(t,["scenario",0,[{type:"show",mode:"bg",src:"./src/resource/background/投獄.png",transition:"fade"},">",{type:"text",content:["end1---たかじの実話---"]},"　 　"]])}}]);
+//# sourceMappingURL=4-badend-js.bundle.js.map

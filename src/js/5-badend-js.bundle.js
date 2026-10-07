@@ -1,0 +1,2 @@
+"use strict";(self.webpackChunkCO_=self.webpackChunkCO_||[]).push([[607],{254(e,r,c){c.r(r),c.d(r,{sceneConfig:()=>s});let s={name:"title",background:"./src/resource/background/黒画面.png",bgm:"./src/resource/bgm/エンディング.mp3",template:"./src/screen/title.html"};c.d(r,["scenario",0,[{type:"show",mode:"bg",src:"./src/resource/background/始まり.png",transition:"fade"},">",{type:"text",content:["end2---COから始める異世界物語プロローグ---"]},"　 　"]])}}]);
+//# sourceMappingURL=5-badend-js.bundle.js.map
