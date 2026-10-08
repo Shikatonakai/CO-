@@ -85,7 +85,7 @@
       <say name="たかじ">0から始める研究室生活を!!</say>
       <sound mode="se" src="./src/resource/se/注意音.mp3" play /> 
       <text><color value="red">ここから起きることは絶対に真似しないようにしてください。死にます。</color></text>
-      <show mode="bg" src="./src/resource/background//JOKER.jpg" />
+      <show mode="bg" src="./src/resource/background/研究室2.jpg" />
       <say name="たかじ">まずは配管を切るところからだな！けどいきなり一人は危険だから...</say>
       <say name="たかじ">優秀な修士2人を呼んだぞ！これで鬼に金棒だ！</say>
       <show src="./src/resource/chara/最後の2人.png" name="最後の2人" pos="center:bottom" transition="fade" />
@@ -141,7 +141,7 @@
  <script>
   export const sceneConfig = {
     name: 'title',
-    background: './src/resource/background/交流プラットホーム.jpg',
+    background: './src/resource/background/研究室1.jpg',
     bgm: './src/resource/bgm/コールドフィッシュ.mp3',
     template: './src/screen/title.html',
     }

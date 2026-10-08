@@ -30,9 +30,9 @@
       <sound mode="se" src="./src/resource/se/ドラクエ_-_階段等の効果音.mp3" play />
       <show mode="bg" src="./src/resource/background/黒画面.png" transition="fade" duration="3000" />
       <sound mode="bgm" src="./src/resource/bgm/ユナイト待機画面.mp3" />
-      <show mode="bg" src="./src/resource/background/成蹊大学.png" transition="fade" duration="1000" />
+      <show mode="bg" src="./src/resource/background/3人の席.jpg" transition="fade" duration="1000" />
       <show src="./src/resource/chara/さちかわ.png" name="さちかわ" pos="center:bottom" />
-      <say name="さちかわ">ここが交流プラットホームだよ！いい場所でしょ...っておや？</say>
+      <say name="さちかわ">ここがラーニングコモンズだよ！いい場所でしょ...っておや？</say>
       <hide name="さちかわ" />
       <sound mode="bgm" src="./src/resource/bgm/ユナイト.mp3" />
       <show src="./src/resource/chara/3人ユナイト.png" name="3ninn" pos="center:middle" transition="fade" />
@@ -60,7 +60,7 @@
       <sound mode="se" src="./src/resource/se/ドラクエ_-_階段等の効果音.mp3" play />
       <show mode="bg" src="./src/resource/background/黒画面.png" transition="fade" duration="3000" />
       <sound mode="bgm" src="./src/resource/bgm/ユナイト待機画面.mp3" />
-      <show mode="bg" src="./src/resource/background/成蹊大学.png" transition="fade" duration="1000" />
+      <show mode="bg" src="./src/resource/background/テラス.jpg" transition="fade" duration="1000" />
       <show src="./src/resource/chara/さちかわ.png" name="さちかわ" pos="center:bottom" />
       <say name="さちかわ">ここがテラスエリアだよ！いい場所でしょ...っておや？</say>
       <hide name="さちかわ" />
@@ -92,7 +92,7 @@
       <sound mode="se" src="./src/resource/se/ドラクエ_-_階段等の効果音.mp3" play />
       <show mode="bg" src="./src/resource/background/黒画面.png" transition="fade" duration="3000" />
       <sound mode="bgm" src="./src/resource/bgm/ユナイト待機画面.mp3" />
-      <show mode="bg" src="./src/resource/background/成蹊大学.png" transition="fade" duration="1000" />
+      <show mode="bg" src="./src/resource/background/6地下.jpg" transition="fade" duration="1000" />
       <show src="./src/resource/chara/さちかわ.png" name="さちかわ" pos="center:bottom" />
       <say name="さちかわ">ここが6号館地下だよ！いい場所でしょ...っておや？</say>
       <hide name="さちかわ" />
