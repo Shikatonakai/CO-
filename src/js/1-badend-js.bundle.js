@@ -1,0 +1,2 @@
+"use strict";(self.webpackChunkCO_=self.webpackChunkCO_||[]).push([[195],{746(e,r,s){s.r(r),s.d(r,{sceneConfig:()=>t});let t={name:"title",background:"./src/resource/background/黒画面.png",bgm:"./src/resource/bgm/title_theme.mp3",template:"./src/screen/title.html"};s.d(r,["scenario",0,[{type:"show",mode:"bg",src:"./src/resource/background/GAMEOVER.jpg",transition:"fade"},">",{type:"say",content:["卒業生が一番おおいかも？~~~リロードしてやり直してね★~~~"],name:"ヒント"},"　 　"]])}}]);
+//# sourceMappingURL=1-badend-js.bundle.js.map
