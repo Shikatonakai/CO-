@@ -110,7 +110,7 @@
       <say name="さちかわ">覚悟は...できてるね？</say> 
       <say name="たかじ">ワ、ワァ...</say>
       <say name="さちかわ">これが還暦を超えた男のパンパンパンチだっ...って(。´・ω・)ん?</say> 
-      <show mode="bg" src="./src/resource/background/非常事態の赤灯研究室.png.jpg" />
+      <show mode="bg" src="./src/resource/background/非常事態の赤灯研究室.png" />
       <sound mode="se" src="./src/resource/se/アラート音.mp3" play />
       <say name="アナウンス">CO検知！CO検知！さちかわ研究室でCO検知！これよりEAシステムを作動します。</say> 
       <hide name="さちかわ" />
