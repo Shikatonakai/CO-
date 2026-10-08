@@ -1,2 +1,0 @@
-"use strict";(self.webpackChunkCO_=self.webpackChunkCO_||[]).push([[261],{382(e,r,s){s.r(r),s.d(r,{sceneConfig:()=>t});let t={name:"title",background:"./src/resource/background/黒画面.png",bgm:"./src/resource/bgm/title_theme.mp3",template:"./src/screen/title.html"};s.d(r,["scenario",0,[{type:"show",mode:"bg",src:"./src/resource/background/廃棄処分.png",transition:"fade"},">",{type:"say",content:["研究室を間違えるのはよくない~~~リロードしてやり直してね★~~~"],name:"ヒント"},"　 　"]])}}]);
-//# sourceMappingURL=3-badend-js.bundle.js.map
